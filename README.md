@@ -1,6 +1,6 @@
 # simple-sticky-note-app-using-web-ui-and-python-eel-library
 
-Eel helps to make Electron-like offline desktop app using front-end technology like JavaScript, HTML, CSS with Python back-end. It's maybe the simplest and fastest way to combined those front-end and back-end technology to make something awesome.
+Eel helps to make Electron-like offline app using front-end technology like JavaScript, HTML, CSS with Python back-end. It's maybe the simplest and fastest way to combined those front-end and back-end technology to make something awesome.
 
 
 <p align="center"><img src="https://github.com/ekamid/simple-sticky-note-app-using-python-eel-and-web-ui/blob/master/UI_sample.PNG"></p>
