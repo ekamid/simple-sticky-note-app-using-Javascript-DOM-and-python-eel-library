@@ -1,0 +1,83 @@
+@import "css/bootstrap.min.css";
+
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header {
+  margin-top: 5px;
+  background: #3f6b8e;
+  padding: 5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+/* btn for changing sticky color */
+.colorChanegeBtn {
+  width: 10rem;
+  height: 5rem;
+  cursor: pointer;
+}
+
+.colorChanegeBtn:nth-child(1) {
+  background: #f8e07c;
+}
+.colorChanegeBtn:nth-child(2) {
+  background: #b2e1f1;
+}
+.colorChanegeBtn:nth-child(3) {
+  background: #f87bb4;
+}
+
+/* form */
+.form-group {
+  margin-top: 1rem;
+}
+
+label {
+  margin-bottom: 0;
+  display: grid;
+  text-align: center;
+  background: #069bff;
+  color: #ffffff;
+}
+.form-control {
+  background-color: #f8e07c;
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-family: "Segoe Print";
+  border-radius: 0;
+}
+textarea {
+  min-width: 100%;
+  max-width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}

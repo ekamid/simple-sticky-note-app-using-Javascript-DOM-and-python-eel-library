@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sticky Note</title>
+    <link rel="icon" type="image/png" href="./img/icon.png" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="start()">
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li class="colorChanegeBtn"></li>
+            <li class="colorChanegeBtn"></li>
+            <li class="colorChanegeBtn"></li>
+          </ul>
+        </nav>
+        <h4 style="color: #ffffff" id="clock">04:45 PM</h4>
+        <h4 style="color: #ffffff" id="date">21-05-2019</h4>
+      </div>
+      <div class="form-group">
+        <form>
+          <label for="StickyNotes"><h2>Sticky Notes</h2></label>
+          <textarea
+            class="form-control rounded-0"
+            id="stickyNote"
+            rows="10"
+          ></textarea>
+          <button
+            id="updateBtn"
+            type="button"
+            class="btn btn-primary btn-lg btn-block"
+          >
+            UPDATE
+          </button>
+        </form>
+      </div>
+    </div>
+    <script src="/eel.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
